@@ -1,0 +1,88 @@
+body.active {
+  background-color: black;
+  color: white;
+}
+
+body {
+  transition: all 1s ease;
+}
+
+.box-main {
+  width: 400px;
+  height: 400px;
+  margin-left: 40%;
+  margin-top: 20%;
+  border: 10px solid black;
+}
+
+h1 {
+  color: yellowgreen;
+}
+
+.heading {
+  color: black;
+}
+
+.button-class {
+  width: 130px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: turquoise;
+  position: relative;
+  border: 2px solid green;
+  cursor: pointer;
+}
+
+.mode {
+  border-radius: 40px;
+  background-color: green;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  border: transparent;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.mode.act {
+  left: 50%;
+}
+
+/* .classname {
+    animation-name: cssAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  } */
+
+/* label {
+  width: 200px;
+  height: 200px;
+  background-color: rebeccapurple;
+  border-radius: 10px;
+}
+
+span {
+  width: 100px;
+  height: 30px;
+  background-color: yellowgreen;
+  position: relative;
+  display: inline-block;
+}
+span::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+input {
+  display: none;
+} */
