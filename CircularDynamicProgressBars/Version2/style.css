@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(#e8f0f7 50%, #4d5bf9 50%);
+}
+.container {
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  background-color: #ffffff;
+  box-shadow: 20px 20px 40px rgba(60, 60, 150, 0.25);
+}
+.circular-progress {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  background-color: orange;
+  border-radius: 50%;
+  place-items: center;
+  display: grid;
+  place-items: center;
+}
+.circular-progress::before {
+  content: "";
+  position: absolute;
+  height: 84%;
+  width: 84%;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.value-container {
+  position: relative;
+  font-size: 50px;
+  /* color: orangered; */
+  color: blueviolet;
+}
