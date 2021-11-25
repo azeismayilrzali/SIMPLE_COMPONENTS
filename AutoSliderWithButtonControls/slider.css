@@ -1,0 +1,420 @@
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 55px;
+  margin-top: 15%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.item {
+  display: flex;
+  width: 110%;
+  margin: 0;
+  transition: 0.5s;
+}
+
+.element {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.text {
+  font-family: "Lexend", sans-serif;
+  opacity: 0.8;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+}
+
+.text-link {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 6%;
+  text-decoration: none;
+}
+
+.left-icon-container {
+  width: 15%;
+  position: relative;
+  height: auto;
+}
+
+.right-icon-container {
+  float: right;
+  width: 15%;
+  position: relative;
+  height: auto;
+}
+
+/* .left-arrow-link{} */
+
+.left-icon {
+  opacity: 0.5;
+  width: 100%;
+  position: absolute;
+  margin-top: 100px;
+}
+
+/* .right-arrow-link{} */
+
+.right-icon {
+  opacity: 0.5;
+  width: 100%;
+  position: absolute;
+  margin-top: 100px;
+}
+
+.image-link {
+  width: auto;
+  height: auto;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 1600px) {
+  .text-link {
+    margin-left: 6.4%;
+    margin-top: 12%;
+  }
+
+  .text {
+    font-size: 13px;
+  }
+
+  .wrap {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 70px;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .left-icon {
+    margin-top: 100px;
+  }
+  .right-icon {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  .text-link {
+    margin-left: 6.3%;
+    margin-top: 12%;
+  }
+
+  .text {
+    font-size: 13px;
+  }
+
+  .wrap {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 70px;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .left-icon {
+    margin-top: 100px;
+  }
+  .right-icon {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  .text-link {
+    margin-left: 6.4%;
+    margin-top: 12%;
+  }
+
+  .text {
+    font-size: 13px;
+  }
+
+  .wrap {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 70px;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .left-icon {
+    margin-top: 100px;
+  }
+  .right-icon {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  .text-link {
+    margin-left: 6.3%;
+    margin-top: 12%;
+  }
+
+  .text {
+    font-size: 13px;
+  }
+
+  .wrap {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 70px;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .left-icon {
+    margin-top: 160px;
+  }
+  .right-icon {
+    margin-top: 160px;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  .left-icon {
+    margin-top: 150px;
+  }
+  .right-icon {
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .left-icon {
+    margin-top: 140px;
+  }
+  .right-icon {
+    margin-top: 140px;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .left-icon {
+    margin-top: 130px;
+  }
+  .right-icon {
+    margin-top: 130px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .left-icon {
+    margin-top: 120px;
+  }
+  .right-icon {
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .left-icon {
+    margin-top: 110px;
+  }
+  .right-icon {
+    margin-top: 110px;
+  }
+}
+
+@media only screen and (max-width: 1433px) {
+  .text-link {
+    margin-left: 5.8%;
+    margin-top: 12%;
+  }
+
+  .left-icon {
+    margin-top: 100px;
+  }
+  .right-icon {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 1266px) {
+  .text-link {
+    margin-left: 5.5%;
+    margin-top: 11.5%;
+  }
+}
+
+@media only screen and (max-width: 1152px) {
+  .text {
+    font-size: 11px;
+  }
+
+  .left-icon {
+    margin-top: 80px;
+  }
+  .right-icon {
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 1066px) {
+  .text-link {
+    margin-left: 5.2%;
+    margin-top: 11.4%;
+  }
+  .text {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 966px) {
+  .text-link {
+    margin-top: 10.5%;
+    margin-left: 5%;
+  }
+  .text {
+    font-size: 8px;
+  }
+
+  .left-icon {
+    margin-top: 70px;
+  }
+  .right-icon {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 852px) {
+  .text-link {
+    margin-top: 23%;
+    margin-left: 12%;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+  .wrap {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 55px;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .left-icon {
+    margin-top: 120px;
+  }
+  .right-icon {
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 733px) {
+  .text {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 696px) {
+  .text-link {
+    margin-top: 45%;
+    margin-left: 28%;
+  }
+
+  .text {
+    font-size: 23px;
+  }
+
+  .wrap {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 200px;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .left-icon {
+    margin-top: 180px;
+  }
+  .right-icon {
+    margin-top: 180px;
+  }
+}
+
+@media only screen and (max-width: 696px) {
+  .text-link {
+    margin-top: 46%;
+    margin-left: 28%;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .text-link {
+    margin-top: 48%;
+    margin-left: 28%;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .left-icon {
+    margin-top: 155px;
+  }
+  .right-icon {
+    margin-top: 155px;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .text-link {
+    margin-top: 49%;
+    margin-left: 26%;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .left-icon {
+    margin-top: 140px;
+  }
+  .right-icon {
+    margin-top: 140px;
+  }
+}
+
+@media only screen and (max-width: 362px) {
+  .text {
+    font-size: 14px;
+  }
+
+  .left-icon {
+    margin-top: 120px;
+  }
+  .right-icon {
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 313px) {
+  .text {
+    font-size: 11px;
+  }
+
+  .left-icon {
+    margin-top: 100px;
+  }
+  .right-icon {
+    margin-top: 100px;
+  }
+}
